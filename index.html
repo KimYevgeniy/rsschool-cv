@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
-<body>
-    <div></div>
+<body class="page-body">
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="#about-me">About me</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#study-projects">Study projects </a>
+                </li>
+                <li>
+                    <a href="#languages">Languages</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="left">
+            <img src="./img/avatar.jpg" alt="" class="avatar">
+            <section>
+                <h2>Contacts</h2>
+                <ul>
+                    <li>Telegram: +7(000)000 00 00</li>
+                    <li>Discord: quantum.wolf</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Education</h2>
+                <ul>
+                    <li>2007-2011 University of International Business - Bachelor of Economy And Business</li>
+                    <li>1 January 2023 - 23 July 2023 nFactorial school - Full-Stack developer</li>
+                </ul>
+            </section>
+        </div>
+        <div class="right">
+            <h1>Yevgeniy Kim</h1>
+            <p>Web Developer</p>
+            <section>
+                <h2 id="about-me">About me</h2>
+                <p>
+                    I'm currently studying to become a professional front-end developer. As a student, I'm actively learning fundamentals of front-end development, including HTML, CSS, and JavaScript. Right now I'm exploring various frameworks and libraries, such as React, Next.js, Tailwind to expand my skill set and stay up to date with industry trends. My passion is to create responsive design, accessibility, and optimization for creating user-friendly websites.
+                </p>
+            </section>
+            <section>
+                <h2 id="skills">Skills</h2>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="study-projects">Study projects</h2>
+                <a href="https://nfactorial-web-intro-to-do-list.vercel.app/">ToDo App</a>
+            </section>
+            <section>
+                <h2 id="languages">Languages</h2>
+                <ul>
+                    <li>Enlgish - C1</li>
+                    <li>Korean - Level 1</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>2023 by Yevgeniy Kim</p>
+            <a href="https://github.com/KimYevgeniy">Github</a>
+            <a href="https://rs.school/js/">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="" width="73" height="26">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
