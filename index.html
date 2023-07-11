@@ -70,6 +70,27 @@
                 <a href="https://nfactorial-web-intro-to-do-list.vercel.app/">ToDo App</a>
             </section>
             <section>
+                <h2>Code example</h2>
+                <pre>
+                    <code class="code">
+                        var sortedSquares = function(nums) {
+                            let result = [];
+                            let l = 0;
+                            let r = nums.length - 1;
+                            let m = r;
+                            while (l <= r) {
+                                if (nums[l] ** 2 > nums[r] ** 2) {
+                                    result[m--] = nums[l++] ** 2;
+                                } else {
+                                    result[m--] = nums[r--] ** 2;
+                                }
+                            }
+                            return result;
+                        };
+                        </code>
+                </pre>
+            </section>
+            <section>
                 <h2 id="languages">Languages</h2>
                 <ul>
                     <li>Enlgish - C1</li>
