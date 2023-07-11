@@ -14,7 +14,11 @@ body {
     height: 50px;
 }
 .avatar {
-    width: 100%;
+    align-self: center;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
     border-radius: 50%;
 }
 .container {
