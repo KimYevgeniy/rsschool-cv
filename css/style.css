@@ -14,7 +14,11 @@ body {
     height: 50px;
 }
 .avatar {
-    width: 100%;
+    align-self: center;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
     border-radius: 50%;
 }
 .container {
@@ -37,4 +41,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    text-align: start;
+    padding: 10px;
 }
